@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 3</title>
+</head>
+
+<!-- Warna background halaman -->
+<body bgcolor="#e0efff">
+
+    <!-- Header -->
+    <h1><font color="blue">My Contact Page - We love to connect!</font></h1>
+    <hr color="blue">
+
+    <!-- Contact Form -->
+    <h2><font color="blue">Contact Form</font></h2>
+
+    <form>
+
+        First Name:<br>
+        <input type="text" name="firstname">
+        <br><br>
+
+        Last Name:<br>
+        <input type="text" name="lastname">
+        <br><br>
+
+        Phone Number:<br>
+        <input type="tel" name="phone">
+        <br><br>
+
+        Email:<br>
+        <input type="email" name="useremail">
+        <br><br>
+
+        Tarikh Pilihan:<br>
+        <input type="date" name="tarikh">
+        <br><br>
+
+        Level Kepuasan (0-10):<br>
+        <input type="range" min="0" max="10" name="kepuasan">
+        <br><br>
+
+        <input type="submit" value="Hantar">
+    </form>
+
+    <hr color="blue">
+
+    <!-- Inline Calculator -->
+    <h2><font color="blue">Inline Calculator</font></h2>
+
+    <input type="number" id="num1" oninput="hasil.value = Number(num1.value) + Number(num2.value)">
+    <input type="number" id="num2" oninput="hasil.value = Number(num1.value) + Number(num2.value)">
+    =
+    <output id="hasil"></output>
+
+    <hr color="blue">
+
+    <!-- Footer -->
+    <p><font color="blue">Hubungi kami di: fatinnurain050429@gmail.com</font></p>
+    <p><font color="blue">&copy; 2025 – Semua Hak Terpelihara</font></p>
+
+</body>
+</html>
